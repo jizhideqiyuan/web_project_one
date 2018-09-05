@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-08-15 14:07:23
+ * @version $Id$
+ */
+.content .wrap{width: 1200px; height: auto; margin: 0px auto;}
+.wrap:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.wrap .main{width: 880px;height:auto;float: right; padding:0px 100px 0px 100px;}
+.wrap .main div{width: 356px;height: 445px;float: right; background:url(../img/p_d_bk2.png) no-repeat 310px 30px;}
+.wrap .main .pro_detail{width: 400px; height: 445px; float: left; margin-right: 124px;float: left;}
+.wrap .main p{font-family: "微软雅黑"; font-size: 18px; color: #121212; float: left;writing-mode:tb-rl; height: 270px; padding-top: 86px;line-height: 32px;}
+.wrap .main h3{font-family: "微软雅黑"; font-size: 18px; color: #121212;writing-mode:tb-rl; float: right; padding-top: 100px;}
+.wrap .main .logo{width: 34px;height: 45px; float: right; position: relative; top: 245px; left: 25px;}
+
+.wrap .flip{width: 1120px;height: 120px; padding-left: 40px; padding-right: 40px; margin: 0px auto; float: left; margin-top: 20px;}
+.wrap .flip .last{font-family: "微软雅黑"; font-size: 12px; color: #121212; float: left;}
+.wrap .flip .next{font-family: "微软雅黑"; font-size: 12px; color: #121212; float: right;}
+.wrap .flip a:hover{color: #ff3636;}
+
+
+

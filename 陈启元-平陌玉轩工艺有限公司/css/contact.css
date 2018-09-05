@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-08-15 10:11:11
+ * @version $Id$
+ */
+.message:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.content .message{width: 870px; height: auto; margin:0px auto; padding:0px 180px 0px 150px;}
+/*.content .message ul li{height: 40px;}*/
+.content .message .cue{width: 67px; height: 58px;background: url(../img/contact_border.png);float:left;font-size: 18px;font-family: "微软雅黑"; color: #ff3636; text-align: center; line-height: 70px; margin-right:8px; padding-left: }
+.content .message input{line-height: 38px;width: 282px; height: 38px; border: 1px solid #ff3636; border-radius: 20px; margin-bottom:20px; float: left; margin-top: 20px;font-family: "微软雅黑"; behavior:url(js/PIE.htc); position: relative;}
+.content .message .name{margin-right: 110px; padding-left: 8px;font-size: 18px;padding-right: 8px;}
+.content .message .phone{padding-left: 8px;font-size: 18px;padding-right: 8px;}
+.content .message .email{width: 772px; height: 38px; border: 1px solid #ff3636; border-radius: 20px;padding-left: 8px;font-size: 18px;padding-right: 8px;}
+.content .message textarea{width: 768px; height: 213px;border: 1px solid #ff3636; border-radius: 20px; margin-top: 20px; padding-left: 8px; padding-top: 5px; font-size: 18px;font-family: "微软雅黑";behavior:url(js/PIE.htc); position: relative;padding-right: 8px;}
+.content .message .proving{width: 182px; height: 38px; border: 1px solid #ff3636; border-radius: 20px; margin-right: 20px;padding-left: 8px;font-size: 18px;padding-right: 8px;}
+.content .message img{width: 140px; height: 60px; float: left;margin:0px 20px 20px 0; cursor: pointer;}
+.content .message .division{float: left; margin-right: 110px;text-decoration:underline; font-size: 12px;  height: 40px;color:#7d6b64;padding-top: 40px;}
+.content .message .look{float: left;text-decoration:underline; height: 40px; font-size: 12px;color:#7d6b64;padding-top: 40px;}
+.content .message .submit{width: 184px; height: 70px;margin: 0px 0px 60px 340px; background:#ff3636; border-radius: 25px;font-size: 30px;font-family: "微软雅黑"; color: #fff; text-align: center; cursor: pointer;}

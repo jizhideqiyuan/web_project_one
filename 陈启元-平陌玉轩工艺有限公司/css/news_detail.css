@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-08-15 09:23:18
+ * @version $Id$
+ */
+.content .main{width: 980px; height: auto; margin: 0px auto;padding-right: 220px;}
+.main:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.content .main .text{width: 630px;height: auto;float: right;}
+.content .main .text h2{font-size: 18px;font-family: "微软雅黑"; color: #121212; text-align: center;padding-bottom: 10px;}
+.content .main .text h5{font-size: 12px;font-family: "微软雅黑"; color: #121212; text-align: center;padding-bottom: 10px;}
+.content .main .text p{font-size: 14px;font-family: "微软雅黑"; color: #121212; line-height: 35px;text-indent: 2em;}
+.content .main .text img{width: 630px; height: 417px;margin: 20px 0px 20px;}
+
+.content .main .flip{width: 1200px; height: 96px; margin:0px auto;float: left; padding-top: 50px;}
+.flip a:hover{color: #ff3636;}
+.flip .last{float: left;font-size: 12px;font-family: "微软雅黑"; color: #121212;}
+.flip .next{float: right;font-size: 12px;font-family: "微软雅黑"; color: #121212;}
